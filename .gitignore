@@ -1,0 +1,6 @@
+# 项目排除路径
+/Common/target/
+/Service/AdminService/target/
+/Service/CarUserService/target/
+/Service/LogService/target/
+/Service/OrderService/target/
