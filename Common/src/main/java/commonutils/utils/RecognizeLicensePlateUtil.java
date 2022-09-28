@@ -20,8 +20,8 @@ import java.util.Map;
 public class RecognizeLicensePlateUtil {
     static IAcsClient client = null;
     private static void CreateClient(){
-        DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai",
-                "LTAI5tNQuAaUpbtA5fC2TXcB", "0I5mSndBIEnQZf8X6gVxAkouCcP7ak");
+        DefaultProfile profile = DefaultProfile.getProfile("-",
+                "", "");
         client = new DefaultAcsClient(profile);
     }
     private static <R extends RpcAcsRequest<T>, T extends AcsResponse> T getAcsResponse(R req) throws Exception {
