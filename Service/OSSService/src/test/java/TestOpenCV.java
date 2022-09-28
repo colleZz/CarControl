@@ -19,8 +19,8 @@ public class TestOpenCV {
 
     public static void main(String[] args) throws Exception {
 //        DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai", "你的AccessKeyID", "你的AccessKeySecret");
-        DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai",
-                "LTAI5tNQuAaUpbtA5fC2TXcB", "0I5mSndBIEnQZf8X6gVxAkouCcP7ak");
+        DefaultProfile profile = DefaultProfile.getProfile("-",
+                "", "");
         client = new DefaultAcsClient(profile);
         testRecognizeLicensePlate(); // 车牌识别
     }
@@ -46,8 +46,8 @@ public class TestOpenCV {
         System.out.println("--------  车牌识别 --------------");
 
         RecognizeLicensePlateRequest req = new RecognizeLicensePlateRequest();
-//        req.setImageURL("https://car-1010.oss-cn-hangzhou.aliyuncs.com/F(%7B4%5B%5DDYLDL51K2%40MOS8_5N.png?versionId=CAEQDxiBgMDpg7aLnBgiIGM4YzBjYzgxZDQxZTRlOWRiYmFjYzRhMmEwZGU5MWMx");
-        req.setImageURL("https://car-101.oss-cn-shanghai.aliyuncs.com/F%28%7B4%5B%5DDYLDL51K2%40MOS8_5N.png");
+//        req.setImageURL("https://car-1010.oss-cn-hangzhou.aliyuncs.com/F(%7B4%40MOS8_5N.png?versionId=");
+        req.setImageURL("https://-.com/F%28%%40MOS8_5N.png");
 //        req.setImageURL("F({4[]DYLDL51K2@MOS8_5N.png");
         RecognizeLicensePlateResponse resp = getAcsResponse(req);
         RecognizeLicensePlateResponse.Data data = resp.getData();
