@@ -2,6 +2,10 @@ server:
   port: 8005
 #服务名称
 spring:
+  redis:
+    host: 192.168.170.128
+    database: 1
+    password: zxy666
   application:
     name: Admin-Service
   datasource:

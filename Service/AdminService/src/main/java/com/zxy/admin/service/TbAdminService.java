@@ -2,6 +2,8 @@ package com.zxy.admin.service;
 
 import com.zxy.admin.entity.TbAdmin;
 import com.baomidou.mybatisplus.extension.service.IService;
+import commonutils.R;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * <p>
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface TbAdminService extends IService<TbAdmin> {
 
+    R adminLogin(TbAdmin admin, RedisTemplate redisTemplate);
 }

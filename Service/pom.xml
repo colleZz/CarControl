@@ -16,6 +16,7 @@
         <module>LogService</module>
         <module>CarUserService</module>
         <module>OrderService</module>
+        <module>OSSService</module>
     </modules>
 
     <properties>
@@ -24,6 +25,17 @@
     </properties>
 
     <dependencies>
+        <!-- Redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!--引入JWT-->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+<!--            <version>3.10.0</version>-->
+        </dependency>
 <!--        fegin-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

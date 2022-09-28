@@ -1,5 +1,6 @@
 package com.zxy.admin.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -16,11 +17,12 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zxy
- * @since 2022-09-21
+ * @since 2022-09-27
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
+@TableName("tb_admin")
 @ApiModel(value="TbAdmin对象", description="")
 public class TbAdmin implements Serializable {
 
@@ -33,6 +35,12 @@ public class TbAdmin implements Serializable {
     @ApiModelProperty(value = "密码")
     @TableField("PassWord")
     private String PassWord;
+
+    @TableField("Name")
+    private String Name;
+
+    @TableField("Avatar")
+    private String Avatar;
 
 
 }
