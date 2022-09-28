@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5426b88e-1583-498a-902c-c8916a1cf182" name="默认变更列表" comment="初始添加nacos依赖的版本">
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/commonutils/interceptor/JWTInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/commonutils/utils/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/commonutils/utils/RecognizeLicensePlateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/AdminService/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/main/java/oss/OssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/main/java/oss/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/main/java/oss/service/OssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/main/java/oss/utils/ConstantPropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OSSService/src/test/java/TestOpenCV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/controller/TbAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/controller/TbAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/entity/TbAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/mapper/TbAdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/mapper/xml/TbAdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/service/TbAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/service/TbAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/service/impl/TbAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AdminService/src/main/java/com/zxy/admin/service/impl/TbAdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/AdminService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Service/AdminService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <list id="e2d4c430-f4fd-4c4b-8c6b-e0f12a1842f6" name="初始添加nacos依赖的版本" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/commonutils/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/commonutils/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/AdminService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/CarUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/controller/TbOwnerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/controller/TbTenantController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/entity/TbOwner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/entity/TbTenant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/mapper/TbOwnerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/mapper/TbTenantMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/service/TbOwnerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/service/TbTenantService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/service/impl/TbOwnerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/classes/com/zxy/user/service/impl/TbTenantServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CarUserService/target/test-classes/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/LogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/controller/TbLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/entity/TbLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/mapper/TbLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/service/TbLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/classes/com/zxy/log/service/impl/TbLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/LogService/target/test-classes/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/client/DemoClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/controller/TbOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/entity/TbOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/mapper/TbOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/service/TbOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/classes/com/zxy/order/service/impl/TbOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/OrderService/target/test-classes/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2F4Tnavda9Ug2ZvKVYO3P8og5YW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Service/OSSService/src/test/java" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17035776" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CarControl\CarControl\Service\OSSService\src\test\java" />
+      <recent name="E:\CarControl\CarControl\Service\OSSService\src\main\resources" />
+      <recent name="E:\CarControl\CarControl\Service\OSSService\src\main\java" />
+      <recent name="E:\CarControl\CarControl\Service\AdminService\src\main\java\com\zxy\admin" />
+      <recent name="E:\CarControl\CarControl\Service\AdminService\src\main\java\com\zxy\admin\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CarControl\CarControl\Service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.TestOpenCV">
+    <configuration name="TestJWT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestJWT" />
+      <module name="AdminService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOpenCV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestOpenCV" />
+      <module name="OSSService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdminService" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AdminService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxy.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CarUserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxy.user.CarUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LogService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxy.log.LogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="OrderService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxy.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="OSSService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="oss.OssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TestOpenCV" />
+        <item itemvalue="Spring Boot.OssApplication" />
+        <item itemvalue="JUnit.CodeGenerator.run" />
+        <item itemvalue="应用程序.TestJWT" />
+        <item itemvalue="HTTP 请求.generated-requests#8" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5426b88e-1583-498a-902c-c8916a1cf182" name="默认变更列表" comment="" />
+      <changelist id="e2d4c430-f4fd-4c4b-8c6b-e0f12a1842f6" name="初始添加nacos依赖的版本" comment="" />
+      <created>1663750526855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663750526855</updated>
+      <workItem from="1663750529231" duration="2004000" />
+      <workItem from="1663758511178" duration="10635000" />
+      <workItem from="1663805483578" duration="110000" />
+      <workItem from="1663805617768" duration="135000" />
+      <workItem from="1663983356217" duration="15004000" />
+      <workItem from="1664070593208" duration="7166000" />
+      <workItem from="1664151863507" duration="740000" />
+      <workItem from="1664175903487" duration="5847000" />
+      <workItem from="1664238050288" duration="15415000" />
+      <workItem from="1664287997590" duration="3692000" />
+      <workItem from="1664334582719" duration="13532000" />
+      <workItem from="1664376233733" duration="3327000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始添加nacos依赖的版本">
+      <created>1664191358264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664191358264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="56" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="76" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始添加nacos依赖的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始添加nacos依赖的版本" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.auth0.jwt.exceptions.SignatureVerificationException" package="com.auth0.jwt.exceptions" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CarControl$AdminApplication.ic" NAME="AdminApplication 覆盖结果" MODIFIED="1664269067573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
